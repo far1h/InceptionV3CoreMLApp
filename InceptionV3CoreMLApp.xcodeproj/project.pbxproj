@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		91624FC22C58DD1600961C57 /* SeeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91624FC22C58DD1600961C57 /* InceptionV3CoreMLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InceptionV3CoreMLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91624FC52C58DD1600961C57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91624FC72C58DD1600961C57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		91624FC92C58DD1600961C57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		91624FB92C58DD1600961C57 = {
 			isa = PBXGroup;
 			children = (
-				91624FC42C58DD1600961C57 /* SeeFood */,
+				91624FC42C58DD1600961C57 /* InceptionV3CoreMLApp */,
 				91624FC32C58DD1600961C57 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		91624FC32C58DD1600961C57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				91624FC22C58DD1600961C57 /* SeeFood.app */,
+				91624FC22C58DD1600961C57 /* InceptionV3CoreMLApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		91624FC42C58DD1600961C57 /* SeeFood */ = {
+		91624FC42C58DD1600961C57 /* InceptionV3CoreMLApp */ = {
 			isa = PBXGroup;
 			children = (
 				91624FC52C58DD1600961C57 /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				91624FD92C58E20500961C57 /* Inceptionv3.mlmodel */,
 				91624FD32C58DD1800961C57 /* Info.plist */,
 			);
-			path = SeeFood;
+			path = InceptionV3CoreMLApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		91624FC12C58DD1600961C57 /* SeeFood */ = {
+		91624FC12C58DD1600961C57 /* InceptionV3CoreMLApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91624FD62C58DD1800961C57 /* Build configuration list for PBXNativeTarget "SeeFood" */;
+			buildConfigurationList = 91624FD62C58DD1800961C57 /* Build configuration list for PBXNativeTarget "InceptionV3CoreMLApp" */;
 			buildPhases = (
 				91624FBE2C58DD1600961C57 /* Sources */,
 				91624FBF2C58DD1600961C57 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = SeeFood;
+			name = InceptionV3CoreMLApp;
 			productName = SeeFood;
-			productReference = 91624FC22C58DD1600961C57 /* SeeFood.app */;
+			productReference = 91624FC22C58DD1600961C57 /* InceptionV3CoreMLApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 91624FBD2C58DD1600961C57 /* Build configuration list for PBXProject "SeeFood" */;
+			buildConfigurationList = 91624FBD2C58DD1600961C57 /* Build configuration list for PBXProject "InceptionV3CoreMLApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				91624FC12C58DD1600961C57 /* SeeFood */,
+				91624FC12C58DD1600961C57 /* InceptionV3CoreMLApp */,
 			);
 		};
 /* End PBXProject section */
@@ -343,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		91624FBD2C58DD1600961C57 /* Build configuration list for PBXProject "SeeFood" */ = {
+		91624FBD2C58DD1600961C57 /* Build configuration list for PBXProject "InceptionV3CoreMLApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91624FD42C58DD1800961C57 /* Debug */,
@@ -352,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91624FD62C58DD1800961C57 /* Build configuration list for PBXNativeTarget "SeeFood" */ = {
+		91624FD62C58DD1800961C57 /* Build configuration list for PBXNativeTarget "InceptionV3CoreMLApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91624FD72C58DD1800961C57 /* Debug */,
