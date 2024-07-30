@@ -13,6 +13,7 @@
 		91624FCD2C58DD1600961C57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91624FCB2C58DD1600961C57 /* Main.storyboard */; };
 		91624FCF2C58DD1800961C57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91624FCE2C58DD1800961C57 /* Assets.xcassets */; };
 		91624FD22C58DD1800961C57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91624FD02C58DD1800961C57 /* LaunchScreen.storyboard */; };
+		91624FDA2C58E20500961C57 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 91624FD92C58E20500961C57 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		91624FCE2C58DD1800961C57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91624FD12C58DD1800961C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91624FD32C58DD1800961C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91624FD92C58E20500961C57 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				91624FCB2C58DD1600961C57 /* Main.storyboard */,
 				91624FCE2C58DD1800961C57 /* Assets.xcassets */,
 				91624FD02C58DD1800961C57 /* LaunchScreen.storyboard */,
+				91624FD92C58E20500961C57 /* Inceptionv3.mlmodel */,
 				91624FD32C58DD1800961C57 /* Info.plist */,
 			);
 			path = SeeFood;
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91624FCA2C58DD1600961C57 /* ViewController.swift in Sources */,
+				91624FDA2C58E20500961C57 /* Inceptionv3.mlmodel in Sources */,
 				91624FC62C58DD1600961C57 /* AppDelegate.swift in Sources */,
 				91624FC82C58DD1600961C57 /* SceneDelegate.swift in Sources */,
 			);
