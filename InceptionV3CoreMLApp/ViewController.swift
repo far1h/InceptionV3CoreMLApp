@@ -60,6 +60,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             print(error)
         }
     }
+//    test test
     
     @IBAction func cameraTapped(_ sender: UIBarButtonItem) {
         present(imagePicker, animated: true)
